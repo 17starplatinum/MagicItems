@@ -40,7 +40,7 @@ spotbugs {
 dependencyCheck {
     format = "HTML"
     nvd {
-        apiKey = nvdApiKey
+        apiKey = providers.environmentVariable("NVD_API_KEY").orNull
         delay = 1000
     }
     analyzers {
