@@ -41,13 +41,13 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: spotbugs-report
-          path: reports/spotbugs.xml
+          path: reports/spotbugs-${{ github.job }}.xml
 
       - name: Upload SpotBugs HTML report
         uses: actions/upload-artifact@v4
         with:
           name: spotbugs-report
-          path: reports/spotbugs.html
+          path: reports/spotbugs-${{ github.job }}.html
 
       - name: Run OWASP Dependency-Check
         run: ./gradlew dependencyCheckAnalyze --console=plain
@@ -58,4 +58,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: dependency-check-report
-          path: reports/dependency-check-report.html
+          path: reports/dependency-check-report-${{ github.job }}.html
