@@ -31,16 +31,23 @@ jobs:
 
       - name: Build with Gradle
         run: |
+          chmod +x gradlew
           ./gradlew clean build --stacktrace
 
       - name: Run SpotBugs
         run: ./gradlew spotbugsMain spotbugsTest
 
-      - name: Upload SpotBugs report
+      - name: Upload SpotBugs XML report
         uses: actions/upload-artifact@v4
         with:
           name: spotbugs-report
-          path: target/spotbugsXml.xml
+          path: reports/spotbugs.xml
+
+      - name: Upload SpotBugs HTML report
+        uses: actions/upload-artifact@v4
+        with:
+          name: spotbugs-report
+          path: reports/spotbugs.html
 
       - name: Run OWASP Dependency-Check
         run: ./gradlew dependencyCheckAnalyze --console=plain
@@ -51,4 +58,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: dependency-check-report
-          path: target/dependency-check-report.html
+          path: reports/dependency-check-report.html
