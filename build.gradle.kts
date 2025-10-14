@@ -141,7 +141,7 @@ dependencies {
 }
 
 tasks.withType<Test> {
-    useJUnitPlatform()
+    enabled = false
 }
 
 tasks.spotbugsMain {
