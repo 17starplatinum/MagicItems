@@ -52,13 +52,7 @@ jobs:
       - name: Run OWASP Dependency-Check
         env:
           NVD_API_KEY: ${{ secrets.NVD_API_KEY }}
-        run: |
-          if [ -z "$NVD_API_KEY" ]; then
-            echo "NVD_API_KEY is empty"
-            exit 1
-          else
-            echo "NVD_API_KEY is set, length: $(echo -n "$NVD_API_KEY" | wc -c)"
-          fi
+        run: ./gradlew dependencyCheckAnalyze --console=plain
 
       - name: Upload Dependency-Check report
         uses: actions/upload-artifact@v4
