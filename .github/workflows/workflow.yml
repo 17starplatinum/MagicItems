@@ -50,9 +50,9 @@ jobs:
           path: reports/spotbugs.html
           overwrite: true
       - name: Run OWASP Dependency-Check
-        run: ./gradlew dependencyCheckAnalyze --console=plain --nvdApiKey=${{ secrets.NVD_API_KEY }}
         env:
           NVD_API_KEY: ${{ secrets.NVD_API_KEY }}
+        run: ./gradlew dependencyCheckAnalyze --console=plain
 
       - name: Upload Dependency-Check report
         uses: actions/upload-artifact@v4
