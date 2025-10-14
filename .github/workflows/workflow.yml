@@ -41,21 +41,22 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: spotbugs-report
-          path: reports/spotbugs-${{ github.job }}.xml
-
+          path: reports/spotbugs.xml
+          overwrite: true
       - name: Upload SpotBugs HTML report
         uses: actions/upload-artifact@v4
         with:
           name: spotbugs-report
-          path: reports/spotbugs-${{ github.job }}.html
-
+          path: reports/spotbugs.html
+          overwrite: true
       - name: Run OWASP Dependency-Check
         run: ./gradlew dependencyCheckAnalyze --console=plain
         env:
-          nvdApiKey: ${{ secrets.NVD_API_KEY }}
+          NVD_API_KEY: ${{ secrets.NVD_API_KEY }}
 
       - name: Upload Dependency-Check report
         uses: actions/upload-artifact@v4
         with:
           name: dependency-check-report
-          path: reports/dependency-check-report-${{ github.job }}.html
+          path: reports/dependency-check-report.html
+          overwrite: true
