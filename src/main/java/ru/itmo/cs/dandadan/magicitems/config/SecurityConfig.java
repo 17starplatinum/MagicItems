@@ -22,7 +22,7 @@ public class SecurityConfig {
 
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http, UserDetailsService uds) throws Exception {
-        var jwtFilter = new JwtFilter(jwtUtils, uds);
+        JwtFilter jwtFilter = new JwtFilter(jwtUtils, uds);
         http.csrf(AbstractHttpConfigurer::disable)
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers("api/v1/auth/login").permitAll()

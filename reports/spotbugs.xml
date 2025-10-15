@@ -1,4 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<body>
 
-</body>
+<BugCollection version="4.9.6" sequence="0" timestamp="1760510805865" analysisTimestamp="1760510805865" release="">
+  <Project projectName="MagicItems (spotbugsMain)">
+    <Jar>C:\ITMO\Software Engineering\Information Security\Lab1\MagicItems\build\classes\java\main\ru\itmo\cs\dandadan\magicitems\config\SecurityConfig.class</Jar>
+    <Jar>C:\ITMO\Software Engineering\Information Security\Lab1\MagicItems\build\classes\java\main\ru\itmo\cs\dandadan\magicitems\config\UserDetailsConfig.class</Jar>
+    <Jar>C:\ITMO\Software Engineering\Information Security\Lab1\MagicItems\build\classes\java\main\ru\itmo\cs\dandadan\magicitems\controller\AuthController.class</Jar>
+    <Jar>C:\ITMO\Software Engineering\Information Security\Lab1\MagicItems\build\classes\java\main\ru\itmo\cs\dandadan\magicitems\controller\MagicItemController.class</Jar>
+    <Jar>C:\ITMO\Software Engineering\Information Security\Lab1\MagicItems\build\classes\java\main\ru\itmo\cs\dandadan\magicitems\dto\auth\AuthRequestDto.class</Jar>
+    <Jar>C:\ITMO\Software Engineering\Information Security\Lab1\MagicItems\build\classes\java\main\ru\itmo\cs\dandadan\magicitems\dto\auth\AuthResponseDto.class</Jar>
+    <Jar>C:\ITMO\Software Engineering\Information Security\Lab1\MagicItems\build\classes\java\main\ru\itmo\cs\dandadan\magicitems\dto\data\MagicItemRequestDto.class</Jar>
+    <Jar>C:\ITMO\Software Engineering\Information Security\Lab1\MagicItems\build\classes\java\main\ru\itmo\cs\dandadan\magicitems\dto\data\MagicItemResponseDto$MagicItemResponseDtoBuilder.class</Jar>
+    <Jar>C:\ITMO\Software Engineering\Information Security\Lab1\MagicItems\build\classes\java\main\ru\itmo\cs\dandadan\magicitems\dto\data\MagicItemResponseDto.class</Jar>
+    <Jar>C:\ITMO\Software Engineering\Information Security\Lab1\MagicItems\build\classes\java\main\ru\itmo\cs\dandadan\magicitems\dto\ErrorResponseDto$ErrorResponseDtoBuilder.class</Jar>
+    <Jar>C:\ITMO\Software Engineering\Information Security\Lab1\MagicItems\build\classes\java\main\ru\itmo\cs\dandadan\magicitems\dto\ErrorResponseDto.class</Jar>
+    <Jar>C:\ITMO\Software Engineering\Information Security\Lab1\MagicItems\build\classes\java\main\ru\itmo\cs\dandadan\magicitems\entity\MagicItem$MagicItemBuilder.class</Jar>
+    <Jar>C:\ITMO\Software Engineering\Information Security\Lab1\MagicItems\build\classes\java\main\ru\itmo\cs\dandadan\magicitems\entity\MagicItem.class</Jar>
+    <Jar>C:\ITMO\Software Engineering\Information Security\Lab1\MagicItems\build\classes\java\main\ru\itmo\cs\dandadan\magicitems\entity\Rarity.class</Jar>
+    <Jar>C:\ITMO\Software Engineering\Information Security\Lab1\MagicItems\build\classes\java\main\ru\itmo\cs\dandadan\magicitems\entity\UniversalNature.class</Jar>
+    <Jar>C:\ITMO\Software Engineering\Information Security\Lab1\MagicItems\build\classes\java\main\ru\itmo\cs\dandadan\magicitems\exception\GlobalExceptionHandler.class</Jar>
+    <Jar>C:\ITMO\Software Engineering\Information Security\Lab1\MagicItems\build\classes\java\main\ru\itmo\cs\dandadan\magicitems\exception\MagicItemNotFoundException.class</Jar>
+    <Jar>C:\ITMO\Software Engineering\Information Security\Lab1\MagicItems\build\classes\java\main\ru\itmo\cs\dandadan\magicitems\MagicItemsApplication.class</Jar>
+    <Jar>C:\ITMO\Software Engineering\Information Security\Lab1\MagicItems\build\classes\java\main\ru\itmo\cs\dandadan\magicitems\mapper\MagicItemMapper.class</Jar>
+    <Jar>C:\ITMO\Software Engineering\Information Security\Lab1\MagicItems\build\classes\java\main\ru\itmo\cs\dandadan\magicitems\repository\MagicItemRepository.class</Jar>
+    <Jar>C:\ITMO\Software Engineering\Information Security\Lab1\MagicItems\build\classes\java\main\ru\itmo\cs\dandadan\magicitems\security\JwtFilter.class</Jar>
+    <Jar>C:\ITMO\Software Engineering\Information Security\Lab1\MagicItems\build\classes\java\main\ru\itmo\cs\dandadan\magicitems\security\JwtUtils.class</Jar>
+    <Jar>C:\ITMO\Software Engineering\Information Security\Lab1\MagicItems\build\classes\java\main\ru\itmo\cs\dandadan\magicitems\security\package-info.class</Jar>
+    <Jar>C:\ITMO\Software Engineering\Information Security\Lab1\MagicItems\build\classes\java\main\ru\itmo\cs\dandadan\magicitems\service\AuthService.class</Jar>
+    <Jar>C:\ITMO\Software Engineering\Information Security\Lab1\MagicItems\build\classes\java\main\ru\itmo\cs\dandadan\magicitems\service\MagicItemService.class</Jar>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\org.projectlombok\lombok\1.18.40\398c6d2d7c42c96b65e78d2ddc9be0058c163453\lombok-1.18.40.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-data-jdbc\3.5.6\29885803e16330bc4e84a7405de60bedc153af54\spring-boot-starter-data-jdbc-3.5.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-data-jpa\3.5.6\ec77fd4b025ff3401e80be68a8a3dfbe45c7dcfa\spring-boot-starter-data-jpa-3.5.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-security\3.5.6\f784752820b4e59f1e144e6d208d04fa27da9\spring-boot-starter-security-3.5.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-validation\3.5.6\2ec647ae8e16b09a4aee4a17c0e7736f6214aacc\spring-boot-starter-validation-3.5.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-web\3.5.6\83d6174983b3d6649525a272222af212728a9892\spring-boot-starter-web-3.5.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\io.jsonwebtoken\jjwt-impl\0.13.0\9e7c70dd7014909556755fb01c465dd184b4b1d9\jjwt-impl-0.13.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\io.jsonwebtoken\jjwt-jackson\0.13.0\cfe37531887657716ec20b5ef22f22b32e8bf4a8\jjwt-jackson-0.13.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\io.jsonwebtoken\jjwt-api\0.13.0\ce631a0342b08953355f333b488d2b03445b9f3e\jjwt-api-0.13.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\me.paulschwarz\spring-dotenv\4.0.0\e0180f80e685a9506d1942e6836a16dee050ebaf\spring-dotenv-4.0.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-jdbc\3.5.6\812d2dc9a662d9ab640bea01b383e82d881fc586\spring-boot-starter-jdbc-3.5.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\org.springframework.data\spring-data-jdbc\3.5.4\fae35ae4bf38e5f80b6ce0f6f21714727b8f3032\spring-data-jdbc-3.5.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-json\3.5.6\62143e29dbac1e72759da7dd85fb8f85a3d582f7\spring-boot-starter-json-3.5.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter\3.5.6\2a2de314809a7c4c9b7303063c1313e03fe31ad3\spring-boot-starter-3.5.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\org.hibernate.orm\hibernate-core\6.6.29.Final\d12db68bb867e2fe6e68740b3fba3d1d633f77ff\hibernate-core-6.6.29.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\org.springframework.data\spring-data-jpa\3.5.4\abd37141d1bd52283aac0d962d6efa1d4d72424b\spring-data-jpa-3.5.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\org.springframework\spring-aspects\6.2.11\e02d582f1595b101c7fa53778e91ddb71d62974e\spring-aspects-6.2.11.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\org.springframework.security\spring-security-config\6.5.5\e647f8334d2d4578f7b553e705a409017ac37be1\spring-security-config-6.5.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\org.springframework.security\spring-security-web\6.5.5\53362443076c948cf1fbdd078802ef58917b5938\spring-security-web-6.5.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\org.springframework\spring-webmvc\6.2.11\3313fe95e06c1d3c94d00301cbed56ed1a9d2a86\spring-webmvc-6.2.11.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\org.springframework.data\spring-data-relational\3.5.4\84e250733152861f0ac699c972a89c2a66395775\spring-data-relational-3.5.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-autoconfigure\3.5.6\6b8fc2519774de4e82b0dbb5651093ce2ca20836\spring-boot-autoconfigure-3.5.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot\3.5.6\a02f486ab700dad1f81e54cb37651d92a3f9d700\spring-boot-3.5.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\org.springframework.security\spring-security-core\6.5.5\b4010d71d6b53cae574ba3d5c15629ed782f3318\spring-security-core-6.5.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\org.springframework\spring-context\6.2.11\bbfb4d55385b2b65ecaf04937d209cf467eaba2f\spring-context-6.2.11.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\org.springframework\spring-aop\6.2.11\1e970383810700506d646c2fa8943725f123f000\spring-aop-6.2.11.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-tomcat\3.5.6\9384211e92c82344e23b00a580cc769724ea9a0c\spring-boot-starter-tomcat-3.5.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\org.apache.tomcat.embed\tomcat-embed-el\10.1.46\e1fc6986d030e791415535e28fd21c0be11810de\tomcat-embed-el-10.1.46.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\org.hibernate.validator\hibernate-validator\8.0.3.Final\4425f554297a1c5ba03a3f30e559a9fd91048cf8\hibernate-validator-8.0.3.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\org.springframework\spring-web\6.2.11\e590ac3e1aaea2d34a5ccb5c25ad84acbada8468\spring-web-6.2.11.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\2.19.2\72e73f048b36d9df82aef146bf8b2ae63b2e28e2\jackson-datatype-jsr310-2.19.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.module\jackson-module-parameter-names\2.19.2\3c4ce467c11364c72ec4967c570fd5a2d1be1d0b\jackson-module-parameter-names-2.19.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.19.2\c5381f11988ae3d424b197a26087d86067b6d7d\jackson-annotations-2.19.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.19.2\50f3b4bd59b9ff51a0ed493e7b5abaf5c39709bf\jackson-core-2.19.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\2.19.2\a720d3946c3a1ab04b780f3b3163d62eee6948a0\jackson-datatype-jdk8-2.19.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.19.2\46509399d28f57ca32c6bb4b0d4e10e8f062051e\jackson-databind-2.19.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\com.zaxxer\HikariCP\6.3.3\7c5aec1e47a97ff40977e0193018865304ea9585\HikariCP-6.3.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\org.springframework\spring-orm\6.2.11\d14df2d6ecddd2984ef5590d73c5178d7df25c11\spring-orm-6.2.11.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\org.springframework\spring-jdbc\6.2.11\8aadfc8bed1630563c65bb5628e2175ecd508998\spring-jdbc-6.2.11.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\org.springframework.data\spring-data-commons\3.5.4\b61f6528cb8b39b471775a4b27f0437f6646f1e6\spring-data-commons-3.5.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\org.springframework\spring-tx\6.2.11\f2b8bef65f6682019002c12a628886637e596261\spring-tx-6.2.11.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\org.springframework\spring-beans\6.2.11\8d92eb837b70094d7316f6a07770eefd360bc53c\spring-beans-6.2.11.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\org.springframework\spring-expression\6.2.11\7190c1c69576516efef1a061d956dccf17cb0b86\spring-expression-6.2.11.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\org.springframework\spring-core\6.2.11\f4860eb6ea92abb8ae6c5e82e2e7efc395cef8d\spring-core-6.2.11.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-logging\3.5.6\61717f15cb53d2a0cce6428b29adbdc2ed5f2f25\spring-boot-starter-logging-3.5.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\ch.qos.logback\logback-classic\1.5.18\fc371f3fc97a639de2d67947cffb7518ec5e3d40\logback-classic-1.5.18.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-to-slf4j\2.24.3\da1143e2a2531ee1c2d90baa98eb50a28a39d5a7\log4j-to-slf4j-2.24.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\org.slf4j\jul-to-slf4j\2.0.17\524cb6ccc2b68a57604750e1ab8b13b5a786a6aa\jul-to-slf4j-2.0.17.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\2.0.17\d9e58ac9c7779ba3bf8142aff6c830617a7fe60f\slf4j-api-2.0.17.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\jakarta.annotation\jakarta.annotation-api\2.1.1\48b9bda22b091b1f48b13af03fe36db3be6e1ae3\jakarta.annotation-api-2.1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\org.yaml\snakeyaml\2.4\e0666b825b796f85521f02360e77f4c92c5a7a07\snakeyaml-2.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\jakarta.persistence\jakarta.persistence-api\3.1.0\66901fa1c373c6aff65c13791cc11da72060a8d6\jakarta.persistence-api-3.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\jakarta.transaction\jakarta.transaction-api\2.0.1\51a520e3fae406abb84e2e1148e6746ce3f80a1a\jakarta.transaction-api-2.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\org.antlr\antlr4-runtime\4.13.0\5a02e48521624faaf5ff4d99afc88b01686af655\antlr4-runtime-4.13.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\org.aspectj\aspectjweaver\1.9.24\9b5aeb0cea9f958b9c57fb80e62996e95a3e9379\aspectjweaver-1.9.24.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\jakarta.validation\jakarta.validation-api\3.0.2\92b6631659ba35ca09e44874d3eb936edfeee532\jakarta.validation-api-3.0.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\org.jboss.logging\jboss-logging\3.6.1.Final\886afbb445b4016a37c8960a7aef6ebd769ce7e5\jboss-logging-3.6.1.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\com.fasterxml\classmate\1.7.0\e98374da1f2143ac8e6e0a95036994bb19137a3\classmate-1.7.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\org.apache.tomcat.embed\tomcat-embed-websocket\10.1.46\e98da6e2f659ec02062d2c84a07b7262e82d8b74\tomcat-embed-websocket-10.1.46.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\org.apache.tomcat.embed\tomcat-embed-core\10.1.46\64d4eee6e42eb61492a7b84d458327bfb1c1d957\tomcat-embed-core-10.1.46.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\io.micrometer\micrometer-observation\1.15.4\8cd0aed0ff098a7937f2f8f81705840f2d60a432\micrometer-observation-1.15.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\org.springframework\spring-jcl\6.2.11\819fc7e968ac07d4b042be7cfb8d99c267142ac7\spring-jcl-6.2.11.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\org.springframework.security\spring-security-crypto\6.5.5\83f9ebdd4706d23d697a7012aa946b64b54476f6\spring-security-crypto-6.5.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\io.micrometer\micrometer-commons\1.15.4\f73f10deeee5700b15c2f0f41ae79e2689b39613\micrometer-commons-1.15.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\ch.qos.logback\logback-core\1.5.18\6c0375624f6f36b4e089e2488ba21334a11ef13f\logback-core-1.5.18.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\USER\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.24.3\b02c125db8b6d295adf72ae6e71af5d83bce2370\log4j-api-2.24.3.jar</AuxClasspathEntry>
+    <SrcDir>C:\ITMO\Software Engineering\Information Security\Lab1\MagicItems\src\main\resources</SrcDir>
+    <SrcDir>C:\ITMO\Software Engineering\Information Security\Lab1\MagicItems\src\main\java</SrcDir>
+    <Plugin id="com.h3xstream.findsecbugs" enabled="true"/>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 15 Oct 2025 09:46:45 +0300" total_classes="0" referenced_classes="0" total_bugs="0" total_size="0" num_packages="0" java_version="17.0.12" vm_version="17.0.12+8-LTS-286" cpu_seconds="27.75" clock_seconds="6.50" peak_mbytes="263.96" alloc_mbytes="3964.00" gc_seconds="0.07">
+    <FindBugsProfile></FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

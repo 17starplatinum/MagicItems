@@ -25,7 +25,7 @@ public class MagicItemService {
     }
     public MagicItemResponseDto getById(UUID id) {
         return mapper.mapToResponse(repository.findById(id)
-                .orElseThrow(() -> new MagicItemNotFoundException("Вещи с id = " + id + "не существует.")));
+                .orElseThrow(() -> new MagicItemNotFoundException("Предмета с id = " + id + "не существует.")));
     }
 
 
