@@ -34,7 +34,6 @@ public class MagicItem {
     private String description;
 
     @Enumerated(EnumType.STRING)
-    @NotBlank
     @NotNull
     @Builder.Default
     @Column(length = 10)
@@ -56,13 +55,11 @@ public class MagicItem {
     private boolean cursed = false;
 
     @Enumerated(EnumType.STRING)
-    @NotBlank
     @NotNull
     @Column(length = 11)
     @Builder.Default
     private UniversalNature universalNature = UniversalNature.NONE;
 
-    @NotNull
     @CreatedDate
     @Column(updatable = false)
     @Builder.Default
